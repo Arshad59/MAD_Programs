@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="idli">idli</string>
+    <string name="vada">vada</string>
+    <string name="coffee">coffee</string>
+    <string name="tea">tea</string>
+</resources>
