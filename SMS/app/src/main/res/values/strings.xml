@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="send_message">SEND MESSAGE</string>
+</resources>
