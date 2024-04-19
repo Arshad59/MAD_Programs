@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 t.setText(msg);
             }
         }catch(SQLException e){
-            System.out.println("CReate failed");
+            System.out.println("Create failed");
         }finally {
             if(db!=null){
                 db.close();
