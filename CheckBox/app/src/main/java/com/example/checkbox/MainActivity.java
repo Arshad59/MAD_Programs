@@ -34,9 +34,10 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                txtv.setText("");
                 int total=0;
-                StringBuilder result= new StringBuilder();
-                result.append("Ordered items are:");
+                StringBuilder result = new StringBuilder();
+                result.append("\nOrdered items are:");
                 if(idli.isChecked()){
                     total+=80;
                     result.append("\nIdli - 80rs");
